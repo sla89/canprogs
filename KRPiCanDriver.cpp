@@ -103,8 +103,8 @@ typedef unsigned __u32;
 
 struct timehdr
 {
-  struct cmsghdr hdr;  // 12 bytes
   struct timeval time; // 8 bytes : 20 bytes total (arm)
+  struct cmsghdr hdr;  // 12 bytes
 };
 
 #include "NTypes.h"
